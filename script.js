@@ -1,4 +1,4 @@
-//JavaScript Part 4 Functions, arrays & objects
+/*JavaScript Part 4 Functions, arrays & objects*/
 // börja använda från och med nu
 
 'use strict'   /*Strict mode*/
@@ -170,31 +170,31 @@
 
 
 // kom ihåg
-const erica = {
-    firstName: "Erica",
-    lastName: "Bergman",
-    age: 2020 - 1994,
-    job: "developer",
-    dogs: ["jack", "huntress", "frank", 'azalea']
+// const erica = {
+//     firstName: "Erica",
+//     lastName: "Bergman",
+//     age: 2020 - 1994,
+//     job: "developer",
+//     dogs: ["jack", "huntress", "frank", "azalea"]
 
-};
-console.log(erica);
-console.log(erica.lastName);
+// };
+// console.log(erica);
+// console.log(erica.lastName);
 
-const interestedIn = prompt(
-    ""
-);
-console.log(interestedIn);
-//console.log(erica.interestedIn);
-console.log(erica[interestedIn]);
+// const interestedIn = prompt(
+//     ""
+// );
+// console.log(interestedIn);
+// //console.log(erica.interestedIn);
+// console.log(erica[interestedIn]);
 
 
 
-if (erica[interestedIn]) {
-    console.log(erica[interestedIn]);
-} else {
-    console.log('wrong request!');
-}
+// if (erica[interestedIn]) {
+//     console.log(erica[interestedIn]);
+// } else {
+//     console.log('wrong request!');
+// }
 
 
 // Imon lektion om objekt 
